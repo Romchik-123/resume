@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="HTML, CSS, резюме">
+  <meta name="description" content="Пробное резюме, написанное только с помощью HTML">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+</head>
+<body>
+  <header id="header">
+    <img src="ПР_1.jpg" alt="" width="150">
+    
+    <h1>Роман Кононенко</h1>
+    
+    <p>Мне 18 лет, хочу стать <strong>frontend</strong> разработчиком.</p>
+
+    <p>Люблю математику и программирование.</p>
+  </header>
+
+  <nav id="navigation">
+    <p><strong>Список моих социальных сетей:</strong></p>
+    <a href="https://vk.com/jsrows" target="_blank">VK</a> | 
+    <a href="https://github.com/Romchik-123" target="_blank">GitHub</a>
+  </nav>
+
+  <section>
+    <article id="Hobby">
+      <h2>Мои хобби</h2>
+      <ol>
+        <li>Компьютерные игры</li>
+        <li>Путешествие</li>
+        <li>Шахматы</li>
+      </ol>
+    </article>
+
+    <article id="Ucheba">
+      <table>
+        <thead>
+          <th>Название</th>
+          <th>Место</th>
+          <th>Класс</th>
+        </thead>
+        <tr>
+          <td>Школа №9</td>
+          <td>ст. Батуринская</td>
+          <td>1-6</td>
+        </tr>
+        <tr>
+          <td>ТККК</td>
+          <td>г. Тимашевск</td>
+          <td>7-11</td>
+        </tr>
+        <tr>
+          <td>КУБГТУ</td>
+          <td>г. Краснодар</td>
+          <td>1 курс - сейчас</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <footer id="footer">
+    <h3>Связаться со мной</h3>
+    <form>
+      <div>
+        <label for="text">Ваше имя</label>
+        <input type="text" id="text" placeholder="Введите имя">
+      </div>
+      <div>
+        <label for="email">Ваш email</label>
+        <input type="email" id="email" placeholder="Введите email">
+      </div>
+      <div>
+        <label for="message">Ваше сообщение</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+      </div>
+      <button id="submit">Отправить</button>
+    </form>
+  </footer>
+</body>
+</html> 
